@@ -7,6 +7,7 @@ pkgbase = mingw-w64-dbh
 	license = GPL
 	makedepends = mingw-w64-configure
 	makedepends = mingw-w64-gettext
+	makedepends = gtk-doc
 	depends = mingw-w64-crt
 	options = staticlibs
 	options = !buildflags
@@ -17,4 +18,3 @@ pkgbase = mingw-w64-dbh
 	sha256sums = 23a6319cd6b315e184267e01e7fa9355e37d929057b4823a95b26cd36a8b2efe
 
 pkgname = mingw-w64-dbh
-

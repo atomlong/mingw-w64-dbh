@@ -9,7 +9,7 @@ url="http://www.gnu.org/software/libdbh/"
 license=('GPL')
 arch=('any')
 depends=('mingw-w64-crt')
-makedepends=('mingw-w64-configure' 'mingw-w64-gettext')
+makedepends=('mingw-w64-configure' 'mingw-w64-gettext' 'gtk-doc')
 source=("http://downloads.sourceforge.net/project/dbh/dbh/${pkgver}/libdbh2-${pkgver}.tar.gz"
         "0001-remove-lrt.patch")
 options=('staticlibs' '!buildflags' '!strip')
